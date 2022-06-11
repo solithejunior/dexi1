@@ -21,17 +21,17 @@
     "ecmaFeatures": {
       "jsx": true
     },
-    "ecmaVersion": 12,
+    "ecmaVersion": 2020,
     "sourceType": "module"
   },
-  "plugins": [
-    "react"
-  ],
+  "plugins": ["react"],
   "rules": {
     "react/react-in-jsx-scope": "off",
     "react/prop-types": "off",
     "react/jsx-key": "off",
     "react/no-unescaped-entities": "off",
-    "linebreak-style": 0,
+    "linebreak-style": 0
   }
 }
+
+
